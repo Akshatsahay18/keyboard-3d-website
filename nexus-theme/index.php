@@ -1,0 +1,292 @@
+<?php get_header(); ?>
+
+    <!-- Hero Section -->
+    <section class="hero reveal">
+        <div class="container hero-container grid-2">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    <span>Nexus v2.0 is now live</span>
+                    <i data-lucide="arrow-right" class="badge-icon"></i>
+                </div>
+                <h1 class="hero-title">
+                    The last keyboard <br>
+                    <span class="text-gradient">you'll ever need.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Integrated directly into your OS. Nexus learns your unique voice to draft emails, write code, and communicate with unprecedented precision.
+                </p>
+                <div class="hero-cta">
+                    <a href="#signup" class="btn btn-primary btn-large">
+                        Start Typing Faster
+                        <i data-lucide="zap"></i>
+                    </a>
+                    <a href="#features" class="btn btn-outline btn-large">
+                        View Demo
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-media">
+                <div class="hero-image-wrapper">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/hero-graphic.png" alt="Futuristic Keyboard" class="hero-3d-graphic">
+                    <div class="glass-panel main-mockup floating-mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="mockup-title">nexus_prompt.ai</div>
+                        </div>
+                        <div class="mockup-body">
+                            <p class="typed-text">Draft a professional follow-up...</p>
+                            <p class="ai-suggestion">"Hi team, following up on the design sprint. I've integrated the feedback and the prototypes are ready for review."<span class="cursor"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="text-gradient">Intelligence in every keystroke</h2>
+                <p>Nexus supercharges your productivity with AI models that live where you type.</p>
+            </div>
+            
+            <div class="bento-grid">
+                <!-- Large Feature -->
+                <div class="bento-item bento-large glass-card reveal">
+                    <div class="bento-content">
+                        <div class="feature-icon-wrapper">
+                            <i data-lucide="brain-circuit"></i>
+                        </div>
+                        <h3>Context-Aware Intelligence</h3>
+                        <p>Nexus understands the difference between a Slack message to a friend and a formal deck for a stakeholder. It automatically adjusts your syntax, tone, and vocabulary to match your current environment perfectly.</p>
+                    </div>
+                    <div class="bento-visual">
+                        <div class="tone-pills">
+                            <span class="pill active">Professional</span>
+                            <span class="pill">Creative</span>
+                            <span class="pill">Concise</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Medium Feature -->
+                <div class="bento-item bento-medium glass-card reveal">
+                    <div class="feature-icon-wrapper">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3>Zero-Latency Processing</h3>
+                    <p>Experience the power of 7B-parameter models running locally on your hardware. No cloud delays, no subscription hurdles for basic features—just pure speed on the edge.</p>
+                </div>
+                
+                <!-- Small Feature -->
+                <div class="bento-item bento-small glass-card reveal">
+                    <div class="feature-icon-wrapper">
+                        <i data-lucide="globe-2"></i>
+                    </div>
+                    <h3>40+ Languages</h3>
+                    <p>Native-level fluency across dozens of languages with real-time translation.</p>
+                </div>
+
+                <!-- Small Feature 2 -->
+                <div class="bento-item bento-small glass-card reveal">
+                    <div class="feature-icon-wrapper">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <p>Zero data logging. Your keystrokes are processed locally and never stored on our servers.</p>
+                </div>
+
+                <!-- Wide Feature -->
+                <div class="bento-item bento-wide glass-card reveal">
+                    <div class="bento-flex">
+                        <div class="bento-content">
+                            <h3>Natural Language Workflows</h3>
+                            <p>Command your digital world without leaving your home row. Bridge the gap between typing and action with custom macros that connect to over 40+ professional integrations.</p>
+                        </div>
+                        <div class="macro-list">
+                            <div class="macro-item"><i data-lucide="terminal"></i> /jira-ticket</div>
+                            <div class="macro-item"><i data-lucide="calendar"></i> /schedule-meet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Loved by power users</h2>
+                <p>See why thousands of professionals have made the switch to Nexus.</p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card glass-card">
+                    <div class="stars">
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                    </div>
+                    <p class="quote">"I was skeptical about AI keyboards, but Nexus is different. It doesn't just suggest words; it suggests ideas. It’s saved me roughly 12 hours of 'empty-page' syndrome this month alone."</p>
+                    <div class="author">
+                        <div class="author-avatar avatar-1"></div>
+                        <div class="author-info">
+                            <h4>Elena Rodriguez</h4>
+                            <span>Product Lead at TechFlow</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card glass-card">
+                    <div class="stars">
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                    </div>
+                    <p class="quote">"As a developer, context-switching is my biggest enemy. Having a keyboard that knows when I'm in VS Code versus an email and adjusts its predictions accordingly is life-changing."</p>
+                    <div class="author">
+                        <div class="author-avatar avatar-2"></div>
+                        <div class="author-info">
+                            <h4>David Chen</h4>
+                            <span>Principal Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card glass-card">
+                    <div class="stars">
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                        <i data-lucide="star" class="filled"></i>
+                    </div>
+                    <p class="quote">"The localization is flawless. I work with teams in 4 countries and Nexus bridges the gap perfectly, allowing me to draft messages in their native tone with zero friction."</p>
+                    <div class="author">
+                        <div class="author-avatar avatar-3"></div>
+                        <div class="author-info">
+                            <h4>Sarah Jenkins</h4>
+                            <span>Global Operations Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, transparent pricing</h2>
+                <p>Start for free, upgrade when you need more power.</p>
+            </div>
+            
+            <div class="pricing-toggle">
+                <span class="active">Monthly</span>
+                <div class="toggle-switch"></div>
+                <span>Annually <span class="discount-badge">Save 20%</span></span>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Free Tier -->
+                <div class="pricing-card glass-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p>Perfect for casually exploring AI typing.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i data-lucide="check"></i> 5,000 AI generations / month</li>
+                        <li><i data-lucide="check"></i> Standard autocomplete</li>
+                        <li><i data-lucide="check"></i> 3 tone shifting options</li>
+                        <li><i data-lucide="check"></i> Community support</li>
+                    </ul>
+                    <a href="#signup" class="btn btn-outline btn-full">Get Started Free</a>
+                </div>
+                
+                <!-- Pro Tier -->
+                <div class="pricing-card glass-card premium">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">12</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p>For professionals who want to reclaim their time.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i data-lucide="check"></i> Unlimited AI generations</li>
+                        <li><i data-lucide="check"></i> Advanced contextual memory</li>
+                        <li><i data-lucide="check"></i> Unlimited custom tones</li>
+                        <li><i data-lucide="check"></i> Custom keyboard macros</li>
+                        <li><i data-lucide="check"></i> Priority email support</li>
+                    </ul>
+                    <a href="#signup" class="btn btn-primary btn-full">Start 14-Day Trial</a>
+                </div>
+                
+                <!-- Enterprise Tier -->
+                <div class="pricing-card glass-card">
+                    <div class="pricing-header">
+                        <h3>Teams</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/user/mo</span>
+                        </div>
+                        <p>For organizations scaling their productivity.</p>
+                    </div>
+                    <ul class="features-list">
+                        <li><i data-lucide="check"></i> Everything in Pro</li>
+                        <li><i data-lucide="check"></i> Shared team knowledge base</li>
+                        <li><i data-lucide="check"></i> Centralized admin billing</li>
+                        <li><i data-lucide="check"></i> Custom AI model fine-tuning</li>
+                        <li><i data-lucide="check"></i> 24/7 dedicated support</li>
+                    </ul>
+                    <a href="#signup" class="btn btn-outline btn-full">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="signup" class="cta">
+        <div class="container">
+            <div class="cta-box glass-card">
+                <div class="cta-content">
+                    <h2>Ready to upgrade your keyboard?</h2>
+                    <p>Join over 50,000 users who have transformed how they type. Installs in seconds, pays off immediately.</p>
+                    
+                    <form class="signup-form">
+                        <div class="input-group">
+                            <i data-lucide="mail"></i>
+                            <input type="email" placeholder="Enter your work email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Get Early Access
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </form>
+                    <p class="form-disclaimer">No credit card required. Cancel anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php get_footer(); ?>
